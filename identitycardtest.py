@@ -54,8 +54,10 @@ def extractDataFromIdCard(img):
         print(f"{key} : {data.strip()}")
     
 #SIFT TESTING HEREE#
-img1 = cv2.imread(r'C:\Users\yasmin.yusri\Downloads\BblNFPTCEAAvPZL.jpg') # queryImage
-img2 = cv2.imread(r'C:\Users\yasmin.yusri\Downloads\identitycardtrain.jpg') # trainImage/template
+#Example: C:\Users\username\download\ic.jpg#
+#train image: identitycardtrain.jpg#
+img1 = cv2.imread(r'YOUR QUERY IMAGE LOCATED HERE') # queryImage
+img2 = cv2.imread(r'YOUR TRAIN IMAGE LOCATED HERE') # trainImage/template
 
 img1Gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 img2Gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
