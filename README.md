@@ -1,1 +1,1 @@
-# Malaysia-IC-OCR
+# OCR implementation
