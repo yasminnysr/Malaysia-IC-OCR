@@ -67,7 +67,8 @@ def extractDataFromIdCard(img):
         print(f"{key} : {data.strip()}")
 
 #SIFT TESTING HEREE#
-img2 = cv2.imread(r'C:\Users\yasmin.yusri\Downloads\traindeathcert.png')  # trainImage
+#train image: C:Users\username\downloads\traindeathcert.png#
+img2 = cv2.imread(r'YOUR TRAIN IMAGE HERE')  # trainImage
 
 display_img(img2)
 extractDataFromIdCard(img2)
